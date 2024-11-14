@@ -1,141 +1,102 @@
 {
-  "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+   "broadArea": {
+    "name": "Electronics and Communication Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electronics-and-communications",
+    "code": "ECE"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
+    "lab": "Microelectronics and VLSI Engineering",
+    "lab_display_name": "microelectronics-vlsi",
+    "phase": 2,
+    "collegeName": "IITKGP",
+    "baseUrl": "mevlsi-iitkgp.vlabs.ac.in",
+    "introduction": "The Microelectronics and VLSI (Very Large Scale Integration) Engineering Laboratory is a specialized facility dedicated to the study, design, and development of microelectronic circuits and VLSI systems. Microelectronics and VLSI technology form the foundation of modern electronics, enabling the design of complex integrated circuits (ICs) that power everything from smartphones and computers to medical devices and advanced automotive systems. This laboratory provides students with an opportunity to understand and practice the principles of semiconductor device characteristic. With an increasing demand for miniaturization, high performance, and low power consumption, VLSI engineering plays a crucial role in advancing technology across industries. The laboratory serves as a bridge between theoretical learning and practical applications, empowering students to tackle real-world challenges in electronics. This experience prepares them for careers in fields such as semiconductor device manufacturing, equipping them with the skills needed to innovate and excel in the rapidly evolving world of microelectronics",
+    "experiments": [
         {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
+            "name": "PMOS Capacitor Band Diagram",
+            "short-name": "pmos-capacitor",
+            "repo": "https://github.com/virtual-labs/exp-pmos-capacitor-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
+            "name": "BJT Characterization (Gummel Plot)",
+            "short-name": "bjit-characterization",
+            "repo": "https://github.com/virtual-labs/exp-bjit-characterization-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Output Characteristics of a NPN Transistor",
+            "short-name": "npn-transistor",
+            "repo": "https://github.com/virtual-labs/exp-npn-transistor-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
+            "name": "Reverse Biasing in a P-channel JFET",
+            "short-name": "p-channel-jfet",
+            "repo": "https://github.com/virtual-labs/exp-p-channel-jfet-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Output Characteristics of n-channel JFET",
+            "short-name": "n-channel-jfet",
+            "repo": "https://github.com/virtual-labs/exp-n-channel-jfet-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Electrical Properties of pn Junction in Depletion Mode",
+            "short-name": "pn-junction",
+            "repo": "https://github.com/virtual-labs/exp-pn-junction-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "IV characteristics of a PN junction diode",
+            "short-name": "pn-junction-diode",
+            "repo": "https://github.com/virtual-labs/exp-pn-junction-diode-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Variation of Fermi Energy Level and Carrier Concentration with Temperature",
+            "short-name": "fermi-carrier",
+            "repo": "https://github.com/virtual-labs/exp-fermi-carrier-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "C-V characterization of PMOS capacitors",
+            "short-name": "cv-pmos",
+            "repo": "https://github.com/virtual-labs/exp-cv-pmos-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Output characteristics of an n-channel MOSFET",
+            "short-name": "mosfet",
+            "repo": "https://github.com/virtual-labs/exp-mosfet-iitkgp",
+            "tag": "v1.0.0",
+            "deploy": true
         }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
-  "targetAudience": {
-    "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
     ],
+    "targetAudience": {
+  "UG":[
+    "Undergraduate students students of Electronics Engineering"
+  ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "Post-graduate students of Electronics Engineering"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+    
+  "objective": "**Develop Foundational Knowledge in Microelectronics**: Provide students with a thorough understanding of microelectronic circuits, semiconductor device physics, and VLSI design principles, essential for building expertise in electronics and integrated circuit technology.\n\n**Bridge Theory and Real-World Application**: Allow students to apply theoretical knowledge in practical scenarios, from designing simple microelectronic circuits to complex VLSI systems, providing a concrete understanding of how devices function at the micro and nano scale.\n\n**Cultivate Problem-Solving and Critical Thinking Skills**: Engage students in projects that challenge them to solve real-world microelectronics and VLSI engineering problems, promoting analytical thinking and innovative solutions in design and fabrication.\n\n**Promote Safety and Ethics in Engineering**: Instill an understanding of ethical considerations, intellectual property issues, and safety standards in microelectronics and VLSI engineering, ensuring that students are aware of their responsibilities as engineers.\n\nThese objectives aim to provide a comprehensive learning experience, enabling students to develop the expertise and practical skills necessary for advancing in the field of microelectronics and VLSI engineering.",
+  
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
-    "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
-    ]
-
- 
+   "description": "The lab contents are chosen such that it covers the syllabi of the Electronics Engineering course's of various universities",
+        "universities": [
+            "IIT Kharagpur"
+        ]
+    }
 }
