@@ -15,70 +15,70 @@
       "name": "PMOS Capacitor Band Diagram",
       "short-name": "pmos-capacitor",
       "repo": "https://github.com/virtual-labs/exp-pmos-capacitor-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "BJT Characterization (Gummel Plot)",
       "short-name": "bjit-characterization",
       "repo": "https://github.com/virtual-labs/exp-bjit-characterization-iitkgp",
-      "tag": "v1.0.1",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Output Characteristics of a NPN Transistor",
       "short-name": "npn-transistor",
       "repo": "https://github.com/virtual-labs/exp-npn-transistor-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Reverse Biasing in a P-channel JFET",
       "short-name": "p-channel-jfet",
       "repo": "https://github.com/virtual-labs/exp-p-channel-jfet-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Output Characteristics of n-channel JFET",
       "short-name": "n-channel-jfet",
       "repo": "https://github.com/virtual-labs/exp-n-channel-jfet-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Electrical Properties of pn Junction in Depletion Mode",
       "short-name": "pn-junction",
       "repo": "https://github.com/virtual-labs/exp-pn-junction-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "IV characteristics of a PN junction diode",
       "short-name": "pn-junction-diode",
       "repo": "https://github.com/virtual-labs/exp-pn-junction-diode-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Variation of Fermi Energy Level and Carrier Concentration with Temperature",
       "short-name": "fermi-carrier",
       "repo": "https://github.com/virtual-labs/exp-fermi-carrier-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "C-V characterization of PMOS capacitors",
       "short-name": "cv-pmos",
       "repo": "https://github.com/virtual-labs/exp-cv-pmos-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     },
     {
       "name": "Output characteristics of an n-channel MOSFET",
       "short-name": "mosfet",
       "repo": "https://github.com/virtual-labs/exp-mosfet-iitkgp",
-      "tag": "v1.0.0",
+      "tag": "v1.1.0",
       "deploy": true
     }
   ],
